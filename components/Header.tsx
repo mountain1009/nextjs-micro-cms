@@ -1,12 +1,12 @@
 import Link from "next/link";
-
+import Image from 'next/image';
 const Header = () => {
     return(
         <header className="container">
             <nav>
                 <ul>
                     <li>
-                        <img width="50px" height="50px" src="/images/logo.png" alt="ロゴ画像"/>
+                        <Image src="/images/logo.png" alt="ロゴ画像" width={50} height={50}></Image>
                     </li>
                 </ul>
                 <ul>

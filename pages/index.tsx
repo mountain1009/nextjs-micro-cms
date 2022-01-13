@@ -6,7 +6,7 @@ const Home: NextPage = ({blogs}: any) => {
         <div>
             {blogs.map((blog: any) => (
                 <article key={blog.id}>
-                    <img src={blog.image.url} alt=""/>
+                    <img src={blog.image.url} alt="コンテンツ画像"/>
                     <h2>{blog.title}</h2>
                     <ul>
                         {
