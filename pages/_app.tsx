@@ -1,4 +1,5 @@
 import '../styles/pico_scss/pico.scss'
+import "../libs/thema-switer"
 import type { AppProps } from 'next/app'
 import Header from "../components/Header"
 

@@ -14,7 +14,13 @@ const Header = () => {
                         <Link href="/">Top</Link>
                     </li>
                     <li>
-                        <Link href="/categories">カテゴリー</Link>
+                        <Link href="/categories">Category</Link>
+                    </li>
+                    <li>
+                        <a href="#" data-theme-switcher="light">Light</a>
+                    </li>
+                    <li>
+                        <a href="#" data-theme-switcher="dark">Dark</a>
                     </li>
                 </ul>
             </nav>
